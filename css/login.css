@@ -1,0 +1,78 @@
+body{
+    background: url(../img/login/bg-repeat.png);
+}
+.part1{
+    text-align: center;
+    /* background-color: aqua; */
+    margin-top: 10%;
+}
+.c1{
+    margin-bottom: 20px;
+}
+.c2{
+    padding: 25px 25px;
+    background-color: white;
+    display: inline-block;
+    text-align: left;
+    border-radius: 1%;
+}
+.c2 > span{
+    font-size: 1.5rem;
+    color: gray;
+    font-weight: bolder;
+}
+.i1{
+    width: 438px;
+    height: 30px;
+    padding: 5px 5px;
+    outline: none;
+    margin-top: 30px;
+    border: 1px solid #000;
+}
+.c2 input[type="password"]{
+    margin-bottom: 20px;
+}
+.i1:hover{
+    border: 1px solid rgb(92,166,224);
+
+}
+.c2 > a{
+    color: gray;
+    float: left;
+    margin-top: 18px ;
+}
+.c2 > button{
+    padding: 10px 25px;
+    font-size: 1.3rem;
+    background-color: rgb(252,175,23);
+    border-radius: 5%;
+    border: none;
+    float: right;
+}
+.c2 > button > a{
+    text-decoration: none;
+    color: black;
+}
+.c2 > button:hover{
+    background-color: rgba(247,147,30);
+}
+.c3{
+    margin-top: 30px;
+}
+.c3 > span:nth-child(1){
+    color: white;
+}
+.c3 > a{
+    color: rgb(252,175,23);
+    text-decoration: none;
+}
+.c3 > a:hover{
+    text-decoration: underline;
+}
+.c3 > p{
+    color: gray;
+    position:absolute;
+    top: 850px;
+    left: 50%;
+    transform:translateX(-50%)
+}

@@ -1,0 +1,12 @@
+.btn1, .btn2, .btn3 {
+  width: 100px;
+  height: 30px;
+  background-color: red; }
+
+.btn2, .btn3 {
+  color: #fff; }
+
+.c, .btn3 {
+  border-radius: 5px; }
+
+/*# sourceMappingURL=extend.css.map */

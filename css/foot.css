@@ -1,0 +1,30 @@
+/* 学子商城页尾部分的css */
+/* 因为boot给我们的响应式缺少sm以下的内容所以我打算自己写一个 */
+@media (max-width:576px) {
+  .col-xs-6 {
+    width: 50%;
+  }
+}
+
+/* .xz-foot */
+/* .xz-foot-up */
+.xz-foot-up {
+  background-color: #f5f5f5;
+}
+
+.xz-foot-list {
+  width: 33%;
+}
+.xz-foot-list:nth-child(2){
+  width: 34%;
+}
+
+.xz-foot-list a {
+  color: #808080;
+  font-size: 12px;
+}
+
+.xz-foot-list li:nth-child(1) a{
+font-size: 14px;
+color: #333;
+}

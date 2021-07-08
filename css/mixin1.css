@@ -1,0 +1,26 @@
+button {
+  background-color: #009dff;
+  color: #fff;
+  font-size: 14px;
+  border: 0;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px; }
+
+.box {
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 3px red; }
+
+ul::after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both; }
+ul li {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  float: left; }
+
+/*# sourceMappingURL=mixin1.css.map */

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+div {
+  background-color: #ff1a00;
+  color: blue; }
+  div a {
+    background-color: #ff1a00;
+    color: blue; }
+
+ul li {
+  height: 50px; }
+ul > :nth-child(1) {
+  background-color: red; }
+ul > :nth-child(2) {
+  background-color: blue; }
+ul > :nth-child(3) {
+  background-color: green; }
+
+ul li {
+  height: 50px; }
+  ul li:nth-child(1) {
+    background-color: #ff1a00; }
+  ul li:nth-child(2) {
+    background-color: #0100af; }
+  ul li:nth-child(3) {
+    background-color: yellow; }
+
+/*# sourceMappingURL=fu.css.map */
